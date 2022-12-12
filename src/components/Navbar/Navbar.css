@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+
+.navbar {
+    background-color: white !important;
+    border-bottom: 2px solid #000;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 22px !important;
+  }
+  
+  #navbarNavDropdown {
+    background-color: white;
+    justify-content: end !important;
+    
+  }
+  
+  #navbarNavDropdown .nav-link {
+    font-size: 14px;
+    color: #000 !important;
+  }
+  
+  #navbarNavDropdown a:hover {
+    color: #bfb8ae !important;
+  }
