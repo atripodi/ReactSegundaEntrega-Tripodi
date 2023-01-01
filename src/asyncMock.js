@@ -41,13 +41,17 @@ const products = [
 
 //simulación de la promesa, devuelvo los productos
 
-export const getProducts = () => {
-    return new Promise((resolve, reject) => {
-        setTimeout (()=> {
-            resolve (products)
-        },2000)
-    })
-}
+// export const getProducts = () => {
+//     return new Promise((resolve, reject) => {
+//         setTimeout (()=> {
+//             resolve (products)
+//         },2000)
+//     })
+// }
+
+
+
+
 
 export const getProduct = (id) => {
     return new Promise ((resolve, reject)=> {

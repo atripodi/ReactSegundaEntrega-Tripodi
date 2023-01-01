@@ -15,11 +15,16 @@
     
   }
   
-  #navbarNavDropdown .nav-link {
+  #navbarNavDropdown .nav-item {
     font-size: 14px;
     color: #000 !important;
+    text-decoration:none;
   }
   
-  #navbarNavDropdown a:hover {
+  #navbarNavDropdown .nav-item:hover {
     color: #bfb8ae !important;
+  }
+
+  .navbar-nav .nav-item{
+    padding-left: 10px;
   }

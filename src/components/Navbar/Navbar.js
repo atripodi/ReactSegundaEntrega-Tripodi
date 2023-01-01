@@ -10,13 +10,13 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul className="navbar-nav">
                         <Link to='/category/ceramica'><li className="nav-item">CERÁMICA</li></Link>
                         <Link to='/category/cuadernos'><li className="nav-item">CUADERNOS</li></Link>
                         <Link to='/category/enmarcados'><li className="nav-item">CUADROS</li></Link>
-                        <li className="nav-cart">
+                        <Link to="/cart"><li className="nav-item">
                             <CartWidget/>
-                        </li>
+                        </li></Link>
                     </ul>
                 </div>
             </div>
